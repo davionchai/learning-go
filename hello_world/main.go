@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(reverse.String("Hello"))
 
 	if len(os.Args) > 1 {
-		fmt.Println(hello.Say(os.Args[1]))
+		fmt.Println(hello.Say(os.Args[1:]))
 	} else {
 		fmt.Println("Hello, world")
 	}

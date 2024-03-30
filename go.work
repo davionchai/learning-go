@@ -1,3 +1,7 @@
 go 1.22.1
 
-use ./hello_world
+use (
+	./go_tutorials/t03_call_module_code
+	./go_tutorials/t04_random_greeting
+	./hello_world
+)
