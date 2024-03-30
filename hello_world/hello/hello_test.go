@@ -8,11 +8,15 @@ func TestSay(t *testing.T) {
 		result string
 	}{
 		{
-			result: "Hello, world",
+			result: "Hello, world!",
 		},
 		{
 			items:  []string{"Matt"},
 			result: "Hello, Matt!",
+		},
+		{
+			items:  []string{"Matt", "Anne"},
+			result: "Hello, Matt, Anne!",
 		},
 	}
 
