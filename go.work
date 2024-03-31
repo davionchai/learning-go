@@ -1,7 +1,6 @@
 go 1.22.1
 
 use (
-	./go_tutorials/t03_call_module_code
-	./go_tutorials/t04_random_greeting
+	./go_tutorials/t02_create_a_module
 	./hello_world
 )
