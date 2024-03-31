@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/davionchai/go_tutorials/t04_random_greeting/util"
+	"github.com/davionchai/learning-go/go_tutorials/t02_create_a_module/greetings"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
 	log.SetFlags(0)
 
 	// Request a greeting message.
-	message, err := util.Hello("Gladys")
+	message, err := greetings.Hello("Davion")
 	// If an error was returned, print it to the console and
 	// exit the program.
 	if err != nil {
