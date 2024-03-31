@@ -3,7 +3,7 @@ run-hello:
 	go run ./hello_world
 
 test:
-	go test ./hello_world/hello
+	go test ./hello_world/hello -v
 
 init:
 	@unset APP_NAME && \
