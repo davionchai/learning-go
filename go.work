@@ -1,7 +1,9 @@
-go 1.22.1
+go 1.23.0
 
 use (
 	./go_tutorials/t02_create_a_module
 	./go_tutorials/t03_relational_db
 	./hello_world
+	./microservices/frontend
+	./microservices/backend
 )
